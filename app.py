@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Data Cleaning App", layout="wide")
-st.title("🧹 Data Cleaning App")
+st.markdown("<h1 style='text-align: center;'>🧹 Data Cleaning App</h1>", unsafe_allow_html=True)
 
 # Sidebar
 st.sidebar.header("Upload CSV File")
